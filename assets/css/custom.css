@@ -1,0 +1,289 @@
+:root {
+    --color-one: #7fbfe9;
+    --color-two: #008ec3;
+    --color-three: #005e8c;
+    --color-four: #eb6e22;
+    --color-four-light: #fff0e7;
+    --color-five: #2f2a60;
+    --color-six: #bfbfbf;
+    --color-white: #ffffff;
+    --color-danger: #cc0f35;
+}
+
+strong,
+.notification strong {
+    color: var(--color-three);
+}
+
+sup {
+    color: var(--color-three);
+    font-weight: 700;
+}
+
+img {
+    border-radius: 4px;
+    max-width: 960px;
+    width: 100%;
+}
+
+figure.image__capa___video img {
+    max-width: 100%;
+}
+
+iframe {
+    border-radius: 8px;
+}
+
+.hero h1 {
+    color: var(--color-white);
+    font-family: 'Secular One', sans-serif;
+}
+
+.content h1,
+.content h2, 
+.content h3, 
+.content h4, 
+.content h5, 
+.content h6 {
+    color: var(--color-three);
+}
+
+.message.is-info {
+    background-color: var(--color-four-light);
+}
+
+.message.is-info .message-header {
+    background-color: var(--color-four);
+    color:var(--color-white)
+}
+
+.message.is-info .message-body {
+    border: 0;
+    /* border-color: var(--color-four);
+    color: var(--color-four); */
+}
+
+figure.video {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.content figure figcaption {
+    border-left: solid 2px var(--color-six);
+    text-align: left;
+}
+
+.content figure figcaption p {
+    margin-left: 1%;
+}
+
+.hero-body {
+    justify-content: center;
+}
+
+.modal-content {
+    width: 96%;
+    max-width: 1080px;
+}
+
+.js-modal-trigger {
+    cursor: pointer;
+}
+
+.js-modal-trigger[data-target="modal-js-example-1"],
+.js-modal-trigger[data-target="modal-js-example-2"],
+.js-modal-trigger[data-target="modal-js-example-3"],
+.js-modal-trigger[data-target="modal-js-example-4"],
+.js-modal-trigger[data-target="modal-js-example-5"],
+.js-modal-trigger[data-target="modal-js-example-6"],
+.js-modal-trigger[data-target="modal-js-example-7"],
+.js-modal-trigger[data-target="modal-js-example-8"],
+.js-modal-trigger[data-target="modal-js-example-9"],
+.js-modal-trigger[data-target="modal-js-example-10"],
+.js-modal-trigger[data-target="modal-js-example-11"],
+.js-modal-trigger[data-target="modal-js-example-12"],
+.js-modal-trigger[data-target="modal-js-example-13"],
+.js-modal-trigger[data-target="modal-js-example-14"],
+.js-modal-trigger[data-target="modal-js-example-15"],
+.js-modal-trigger[data-target="modal-js-example-16"],
+.js-modal-trigger[data-target="modal-js-example-17"],
+.js-modal-trigger[data-target="modal-js-example-18"],
+.js-modal-trigger[data-target="modal-js-example-19"],
+.js-modal-trigger[data-target="modal-js-example-20"] {
+    margin: auto;
+    width: 70%;
+}
+
+.js-modal-trigger[data-target="modal-video-1"],
+.js-modal-trigger[data-target="modal-video-2"],
+.js-modal-trigger[data-target="modal-video-3"],
+.js-modal-trigger[data-target="modal-video-4"],
+.js-modal-trigger[data-target="modal-video-5"],
+.js-modal-trigger[data-target="modal-video-6"],
+.js-modal-trigger[data-target="modal-video-7"],
+.js-modal-trigger[data-target="modal-video-8"],
+.js-modal-trigger[data-target="modal-video-9"],
+.js-modal-trigger[data-target="modal-video-10"],
+.js-modal-trigger[data-target="modal-video-11"],
+.js-modal-trigger[data-target="modal-video-12"],
+.js-modal-trigger[data-target="modal-video-13"],
+.js-modal-trigger[data-target="modal-video-14"],
+.js-modal-trigger[data-target="modal-video-15"],
+.js-modal-trigger[data-target="modal-video-16"],
+.js-modal-trigger[data-target="modal-video-17"],
+.js-modal-trigger[data-target="modal-video-18"],
+.js-modal-trigger[data-target="modal-video-19"],
+.js-modal-trigger[data-target="modal-video-20"] {
+    margin: auto;
+    width: 90%;
+}
+
+blockquote.citacao {
+    margin-left: 10%;
+}
+
+::marker {
+    color: var(--color-four)
+}
+
+.is-uppercase {
+    text-transform: uppercase;
+}
+
+/* .is-border-right {
+    border-right: var(--color-four) solid 1px;
+} */
+
+.box {
+    padding: 0;
+    background-color: transparent;
+}
+
+.box figure {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.quebra-palavra {
+    word-break: break-word;
+}
+
+.image.is-16by9 {
+    padding-top: 52.25%;
+}
+
+.content table thead th {
+    background-color: var(--color-four);
+    color: var(--color-white);
+}
+
+.notification.is-info.is-light {
+    background-color: var(--color-white);
+}
+
+.aspas {
+    padding: 0 5%;
+}
+.aspas::before,
+.aspas::after {
+    content: "";
+    display: flex;
+    width: 48px;
+    height: 48px;
+}
+.aspas::before {
+    background: url(../image/quote-right-solid.svg) no-repeat right;
+    width: 100%;
+    margin-right: 5%;
+}
+.aspas::after {
+    background: url(../image/quote-left-solid.svg) no-repeat left;
+}
+
+.notification.is-danger.is-light strong {
+    color: var(--color-danger);
+}
+
+.image__capa___video {
+    cursor: pointer;
+    opacity: .9;
+}
+.image__capa___video:hover {
+    opacity: 1;
+}
+.image__capa___video::before {
+    content: "";
+    background: url(../image/circle-play-regular.svg) no-repeat center;
+    width: 64px;
+    height: 64px;
+    display: flex;
+    position: absolute;
+    top: calc(50% - 32px);
+    left: calc(50% - 32px);
+    z-index: 1;
+}
+
+.title.is-1 {
+    font-size: 2rem;
+}
+
+@media screen and (min-width: 769px), print {
+    .hero.is-medium .hero-body {
+        padding-top: 5rem;
+        padding-bottom: 5rem;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .section.is-medium {
+        padding-top: 3rem;
+    }
+}
+
+@media screen and (max-width: 375px) { 
+    .content figure {
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
+
+.button__video {
+    border: solid 1px #005e8c !important;
+    width: max-content !important;
+    color: #005e8c !important;
+}
+
+.message.message__custom {
+    background-color: #ffffff;
+    margin-top: 5%;
+    margin-bottom: 8%;
+}
+
+.message-body.message-body__custom {
+    border-width: 0;
+    padding-left: 4%;
+}
+
+.message-body.message-body__custom::after,
+.message-body.message-body__custom::before {
+    content: "";
+    width: 60px;
+    border-color: #005e8c;
+    height: 60px;
+    display: flex;
+    position: absolute;
+}
+
+.message-body.message-body__custom::after {
+    /* bottom: 1px; */
+    border-bottom: solid;
+    border-right: solid;
+    right: 0;
+}
+
+.message-body.message-body__custom::before {
+    border-top: solid;
+    border-left: solid;
+    left: 0px;
+    margin-top: -4%;
+}
